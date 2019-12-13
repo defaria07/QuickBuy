@@ -21,7 +21,7 @@ namespace QuickBuy.Dominio.Entidades
         public string endereco { get; set; }
 
         public int numero { get; set; }
-        public int Fpagamentoid { get; set; }
+        public int FpagamentoID { get; set; }
         public Formapagamento Fpagamento { get; set; }
 
         //pedido deve ter 1 ou muitos items
